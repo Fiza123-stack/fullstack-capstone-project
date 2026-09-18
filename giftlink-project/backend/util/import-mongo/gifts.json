@@ -1,0 +1,18 @@
+[
+  { "id": "1", "category": "Furniture", "condition": "Used", "age_years": 3, "description": "Wooden dining table, seats 4, minor scratches.", "date_added": 1690000000, "name": "Dining Table" },
+  { "id": "2", "category": "Furniture", "condition": "Like New", "age_years": 1, "description": "Two-seater fabric sofa, smoke-free home.", "date_added": 1690100000, "name": "Fabric Sofa" },
+  { "id": "3", "category": "Electronics", "condition": "Used", "age_years": 2, "description": "22-inch LED monitor, works perfectly.", "date_added": 1690200000, "name": "LED Monitor" },
+  { "id": "4", "category": "Electronics", "condition": "Refurbished", "age_years": 1, "description": "Bluetooth speaker, great sound quality.", "date_added": 1690300000, "name": "Bluetooth Speaker" },
+  { "id": "5", "category": "Kitchen", "condition": "Used", "age_years": 4, "description": "Non-stick frying pan set of 3.", "date_added": 1690400000, "name": "Frying Pan Set" },
+  { "id": "6", "category": "Kitchen", "condition": "Like New", "age_years": 1, "description": "Electric kettle, rarely used.", "date_added": 1690500000, "name": "Electric Kettle" },
+  { "id": "7", "category": "Books", "condition": "Used", "age_years": 5, "description": "Collection of classic novels, 10 books.", "date_added": 1690600000, "name": "Classic Novels Set" },
+  { "id": "8", "category": "Books", "condition": "Like New", "age_years": 1, "description": "Children's picture books, set of 5.", "date_added": 1690700000, "name": "Children's Books" },
+  { "id": "9", "category": "Toys", "condition": "Used", "age_years": 2, "description": "Wooden building blocks set.", "date_added": 1690800000, "name": "Building Blocks" },
+  { "id": "10", "category": "Toys", "condition": "Like New", "age_years": 1, "description": "Remote control car, works great.", "date_added": 1690900000, "name": "RC Car" },
+  { "id": "11", "category": "Clothing", "condition": "Used", "age_years": 1, "description": "Winter jacket, size medium.", "date_added": 1691000000, "name": "Winter Jacket" },
+  { "id": "12", "category": "Clothing", "condition": "Like New", "age_years": 1, "description": "Pair of running shoes, size 9.", "date_added": 1691100000, "name": "Running Shoes" },
+  { "id": "13", "category": "Sporting Goods", "condition": "Used", "age_years": 3, "description": "Yoga mat and resistance bands.", "date_added": 1691200000, "name": "Yoga Set" },
+  { "id": "14", "category": "Sporting Goods", "condition": "Refurbished", "age_years": 2, "description": "Adjustable dumbbell set, 5-25 lbs.", "date_added": 1691300000, "name": "Dumbbell Set" },
+  { "id": "15", "category": "Outdoor", "condition": "Used", "age_years": 2, "description": "2-person camping tent, waterproof.", "date_added": 1691400000, "name": "Camping Tent" },
+  { "id": "16", "category": "Outdoor", "condition": "Like New", "age_years": 1, "description": "Foldable garden chairs, set of 2.", "date_added": 1691500000, "name": "Garden Chairs" }
+]

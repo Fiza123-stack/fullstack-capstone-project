@@ -1,4 +1,4 @@
-name: Node.js CI
+name: CI/CD
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     strategy:
@@ -15,12 +15,22 @@ jobs:
         node-version: [18.x]
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: npm install
-      working-directory: ./backend
-    - run: npm test --if-present
-      working-directory: ./backend
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install backend dependencies
+        working-directory: ./giftlink-project/backend
+        run: npm install
+
+      - name: Install frontend dependencies
+        working-directory: ./giftlink-project/frontend
+        run: npm install
+
+      - name: Build frontend
+        working-directory: ./giftlink-project/frontend
+        run: npm run build

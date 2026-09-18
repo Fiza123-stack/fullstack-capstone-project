@@ -24,13 +24,13 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install backend dependencies
-        working-directory: ./backend
+        working-directory: ./giftlink-project/backend
         run: npm install
 
       - name: Install frontend dependencies
-        working-directory: ./frontend
+        working-directory: ./giftlink-project/frontend
         run: npm install
 
       - name: Build frontend
-        working-directory: ./frontend
+        working-directory: ./giftlink-project/frontend
         run: npm run build
